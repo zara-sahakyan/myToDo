@@ -49,14 +49,20 @@ body {
    li {
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     border-bottom: 1px solid #ddd;
     padding-bottom: 20px;
     padding-top: 20px;
+    align-items: center;
    }
    li span {
     max-width: 262px;
+    width: 100%;
+    text-align: left;
     overflow: auto;
    }
-
+   li input {
+    width: 20px;
+    text-align: left;
+    padding: 0;
+    margin: 0 10px 0 0;
+   }
